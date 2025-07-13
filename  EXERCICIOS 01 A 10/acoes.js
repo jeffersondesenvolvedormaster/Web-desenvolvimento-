@@ -4,8 +4,7 @@ let resp = window.document.getElementById('saida')
 let nome = window.prompt("qual seu nome?")
 
 function acao1() {
-    resp.innerHTML += '<p>Clicou no primeiro botão</p>'
-}
+    resp.innerHTML += '<p>jeff</p>'}
 
 function acao2() {
     resp.innerHTML += '<p>Clicou no segundo botão</p>'
@@ -22,3 +21,4 @@ function acao4() {
 function zerar(){
   
 resp.innerHTML =  `<p> ${nome} Aqui vou registrar suas ações com os botões acima.</p>`}
+resp.innerHTML = '<a href="https://github.com/settings/profile">clique</a>'

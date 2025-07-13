@@ -1,0 +1,86 @@
+
+
+*{margin: 0%;}
+
+
+.itens{
+
+display: none;
+position: absolute;
+
+}
+
+
+    
+}
+
+aside:hover .itens {
+display: block;
+}
+
+#nav {
+
+    background-color: blueviolet;
+     margin: 0%;
+    padding: 10px;
+    text-align: center;
+    
+      
+
+}
+
+nav ul{
+    display:inline-flex;
+    justify-content: center;
+    list-style: none;
+
+     
+      
+}
+
+nav li{ 
+    padding-inline: 30px;
+   
+      
+}
+
+.container {
+    
+    border-width: 2px;
+    border-style: solid;
+    display: flex;
+    margin: 0;
+    padding: 0%;
+    
+}
+
+
+#aside {
+
+flex-basis: 25%;
+color: blue;
+background-color: bisque;
+text-align: center;
+margin: 0%;
+padding: 0%
+
+
+}
+
+#pagina {
+
+flex-basis: 75%;
+text-align: center;
+background-color: aquamarine;
+margin: 0%;
+padding: 0%;
+
+}
+
+footer{    
+   
+    background-color: chocolate;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
