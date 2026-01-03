@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini calculadora</title>
+    <link rel="stylesheet" href="cssjs.css">
+  
+</head>
+<body>
+
+    <BR></BR>
+
+    <h1 id="teste">PROJETO MINI CALCULADORA</h1>
+
+<div class="miniCalculadora">
+
+  <div class="cima">
+          
+             
+             <input id="cl" type="button" value="CL" onclick="window.location.reload()">
+             
+<input  id="dysplay"  type="text" readonly
+   
+  </div> </div>
+
+    <div class="botao">
+        
+        <!--propriedade value acrescenta o valor na tela apenas para leitura
+        propriedade onclick (quando cliacar) recebe o imput de append (função do js que pega o valor entre aspas e executa uma função (acrescentar ao dysplay) )-->
+        <input type="button" value="1" onclick="append('1')">
+        <input type="button" value="2" onclick="append('2')">
+        <input type="button" value="3" onclick="append('3')">
+        <input type="button" value="/" onclick="append('/')">
+        <br>
+        <input type="button" value="4" onclick="append('4')">
+        <input type="button" value="5" onclick="append('5')">
+        <input type="button" value="6" onclick="append('6')">
+        <input type="button" value="*" onclick="append('*')">
+        <br>
+        <input type="button" value="7" onclick="append('7')">
+        <input type="button" value="8" onclick="append('8')">
+        <input type="button" value="9" onclick="append('9')">
+        <input type="button" value="-" onclick="append('-')">
+        <br>
+        <input type="button" value="0" onclick="append('0')">
+        <input type="button" value="." onclick="append('.')">
+        <input type="button" value="=" onclick="calculate()">
+        <input type="button" value="+" onclick="append('+')">
+        
+        <br>
+       
+    
+    </div>
+</div>
+</div>
+  <h2>As funcionalidades da calculadora estão ativas por favor teste!</h2>
+</body>
+<script src="primeiro projeto.js"></script>
+</html>
